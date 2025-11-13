@@ -1,0 +1,4 @@
+# Ignore Python virtual environments
+robot-env/
+venv/
+__pycache__/
