@@ -121,23 +121,30 @@ footer {
 /* ===== PROJECT BADGES ===== */
 .badge {
   display: inline-block;
-  padding: 0.25rem 0.6rem;
-  margin-top: 0.5rem;
-  margin-right: 0.4rem;
+  padding: 4px 8px;
+  margin-top: 10px;
+  margin-right: 6px;
+
   background-color: #45a29e;
   color: #0b0c10;
+
   font-size: 0.75rem;
-  border-radius: 5px;
   font-weight: bold;
+
+  border-radius: 4px;
 }
 
 .badge.construction {
-  background-color: #d258bc;
-  color: #0b0c10;
+  background-color: #c31e65;  /* bright pink */
+  color: white;
 }
 
-/* example additional tag colors */
-.badge.python { background-color: #306998; color: #fff; }
-.badge.sql { background-color: #e38c2f; color: #fff; }
-.badge.visualization { background-color: #1f8ef1; color: #fff; }
-.badge.testing { background-color: #4caf50; color: #fff; }
+.badge.python {
+  background-color: #306998; /* Python blue */
+  color: white;
+}
+
+.badge.sql {
+  background-color: #e38d00; /* gold */
+  color: black;
+}
