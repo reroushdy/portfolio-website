@@ -119,32 +119,28 @@ footer {
 }
 
 /* ===== PROJECT BADGES ===== */
+.badges {
+  margin-top: 10px;
+}
+
 .badge {
   display: inline-block;
   padding: 4px 8px;
-  margin-top: 10px;
   margin-right: 6px;
-
+  margin-top: 6px;
   background-color: #45a29e;
   color: #0b0c10;
-
+  border-radius: 4px;
   font-size: 0.75rem;
   font-weight: bold;
-
-  border-radius: 4px;
 }
 
-.badge.construction {
-  background-color: #c31e65;  /* bright pink */
-  color: white;
-}
-
-.badge.python {
-  background-color: #306998; /* Python blue */
-  color: white;
-}
-
-.badge.sql {
-  background-color: #e38d00; /* gold */
-  color: black;
-}
+/* Custom badge types */
+.badge.construction { background: #c31e65; color: white; }
+.badge.python { background: #306998; color: white; }
+.badge.sql { background: #e38d00; color: black; }
+.badge.api { background: #1f8fff; color: white; }
+.badge.json { background: #7f8c8d; color: white; }
+.badge.pandas { background: #130654; color: white; }
+.badge.figma { background: #a259ff; color: white; }
+.badge.matplotlib { background: #11557c; color: white; }
