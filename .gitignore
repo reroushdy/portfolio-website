@@ -3,4 +3,3 @@ robot-env/
 venv/
 __pycache__/
 .venv
-.gitignore
