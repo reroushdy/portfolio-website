@@ -142,7 +142,8 @@ footer {
 .badge.api { background: #1f8fff; color: white; }
 .badge.json { background: #7f8c8d; color: white; }
 .badge.pandas { background: #130654; color: white; }
-.badge.figma { background: #a259ff; color: white; }
+.badge.inkscape { background: #a259ff; color: white; }
+.badge.cssandhtml { background: #da5b48; color: white; }
 .badge.matplotlib { background: #11557c; color: white; }
 .badge.robotframework {background: #000000; color: #ffffff; }
 .badge.cicd {background: #3e0438; color: #ffffff; }
